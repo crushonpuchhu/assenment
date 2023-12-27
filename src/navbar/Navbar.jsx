@@ -12,11 +12,11 @@ function Navbar() {
             <section className={css.section}>
                 {/* first list */}
                 <ul className={css.MenuList}>
-                    <li onMouseLeave={() => { navigetor("/nothing") }} onMouseEnter={() => { navigetor("/first") }}>Capabilities</li>
+                    <li onBlur={()=>{navigetor("/nothing")}} onMouseEnter={() => { navigetor("/first") }}>Capabilities</li>
                     <li>Pricing</li>
-                    <li onMouseLeave={() => { navigetor("/nothing") }} onMouseEnter={() => { navigetor("/second") }}>Solutions</li>
-                    <li onMouseLeave={() => { navigetor("/nothing") }} onMouseEnter={() => { navigetor("/third") }}>Why VWO?</li>
-                    <li onMouseLeave={() => { navigetor("/nothing") }} onMouseEnter={() => { navigetor("/fouth") }}>Resources</li>
+                    <li onBlur={()=>{navigetor("/nothing")}} onMouseEnter={() => { navigetor("/second") }}>Solutions</li>
+                    <li onBlur={()=>{navigetor("/nothing")}} onMouseEnter={() => { navigetor("/third") }}>Why VWO?</li>
+                    <li onBlur={()=>{navigetor("/nothing")}} onMouseEnter={() => { navigetor("/fouth") }}>Resources</li>
                 </ul>
                 {/* second list */}
                 <ul className={css.SideList}>
